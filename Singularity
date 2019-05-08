@@ -35,7 +35,7 @@ MirrorURL: http://ftp.us.debian.org/debian/
 
     pip install numpy
 
-    pip install matplotlib
+    python -m pip install -U matplotlib
 
     pip install emcee
 
@@ -55,7 +55,7 @@ MirrorURL: http://ftp.us.debian.org/debian/
 
     git clone https://github.com/dfm/celerite.git
 
-    cd /celerite
+    cd celerite
 
     python setup.py install
 
