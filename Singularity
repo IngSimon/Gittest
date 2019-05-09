@@ -67,8 +67,6 @@ MirrorURL: http://ftp.us.debian.org/debian/
 
     cd /usr/local
 
-    git init
-
     git clone https://github.com/as595/pyrmsynth.git
 
     cd pyrmsynth/rm_tools/
