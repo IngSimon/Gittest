@@ -62,9 +62,7 @@ MirrorURL: http://ftp.us.debian.org/debian/
     cd /celerite
     
     python setup.py install
-
-    cd /usr/local
-    
+  
     git init
 
     git clone https://github.com/as595/pyrmsynth.git
