@@ -56,6 +56,12 @@ MirrorURL: http://ftp.us.debian.org/debian/
     pip install pyfits
 
     pip install pywcs
+    
+    git clone https://github.com/dfm/celerite.git
+
+    cd /celerite
+    
+    python setup.py install
 
     cd /usr/local
     
@@ -69,11 +75,7 @@ MirrorURL: http://ftp.us.debian.org/debian/
 
     apt-get clean
 
-    git clone https://github.com/dfm/celerite.git
 
-    cd /celerite
-
-    python setup.py install
 
 %runscript
 
