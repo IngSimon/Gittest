@@ -51,14 +51,6 @@ MirrorURL: http://ftp.us.debian.org/debian/
 
     pip install autograd
 
-    git init
-
-    git clone https://github.com/dfm/celerite.git
-
-    cd /celerite
-
-    python setup.py install
-
     pip install george
 
     pip install pyfits
@@ -66,6 +58,8 @@ MirrorURL: http://ftp.us.debian.org/debian/
     pip install pywcs
 
     cd /usr/local
+    
+    git init
 
     git clone https://github.com/as595/pyrmsynth.git
 
@@ -74,6 +68,12 @@ MirrorURL: http://ftp.us.debian.org/debian/
     python setup.py build_ext --inplace
 
     apt-get clean
+
+    git clone https://github.com/dfm/celerite.git
+
+    cd /celerite
+
+    python setup.py install
 
 %runscript
 
