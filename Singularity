@@ -63,6 +63,8 @@ MirrorURL: http://ftp.us.debian.org/debian/
     
     python setup.py install
   
+    cd /usr/local
+
     git init
 
     git clone https://github.com/as595/pyrmsynth.git
